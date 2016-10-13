@@ -1,7 +1,7 @@
 import path from 'path';
 import merge from 'lodash/merge';
 import reduce from 'lodash/reduce';
-import assign from 'loadash/assign';
+import assign from 'lodash/assign';
 
 /**
  * 参考 https://www.npmjs.com/package/webpack-manifest-plugin 实现
