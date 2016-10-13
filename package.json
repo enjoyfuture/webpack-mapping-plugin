@@ -1,0 +1,39 @@
+{
+  "name": "webpack-mapping-plugin",
+  "version": "0.1.0",
+  "author": {
+    "name": [
+      "Linder Wang"
+    ]
+  },
+  "keywords": [
+    "webpack",
+    "mapping",
+    "plugin"
+  ],
+  "description": "Webpack plugin for generating a mapping corresponding to the original file name and the output file name.",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel --presets es2015 -d dist/ src/"
+  },
+  "dependencies": {
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.16.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enjoyfuture/webpack-mapping-plugin.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enjoyfuture/webpack-mapping-plugin/issues"
+  },
+  "homepage": "https://github.com/enjoyfuture/webpack-mapping-plugin#readme"
+}
